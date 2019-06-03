@@ -5,9 +5,9 @@ class Results{
 
 		chem=10;phys=20;bio=30;
 		total=chem+phys+bio;
-		per=total+100/10;
+		per=total+100/300;
 		System.out.println("Total: " + total);
-		System.out.println("percentage" + per);
+		System.out.println("percentage: " + per);
 
 		if (total >=60){
 			System.out.println("passed");

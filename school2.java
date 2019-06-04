@@ -1,5 +1,11 @@
 class Result{
-	private int phy,chem,math;
+	private int phy,chem,math,total;
+	private float per;
+
+	private void Calculations(){
+		total=phy+chem+math;
+		per=total*100/300;
+	}
 
 	public void physics(int p){
 		if (p>0 && p<=150){
@@ -34,14 +40,15 @@ class Result{
 		}
 	}
 	public void showResult(){
-		int total;
-		total=phy+chem+math;
+		
 		if(phy ==-1 || chem ==-1 || math==-1){
 			System.out.println("no results");
 		}
 
 		else{
+			Calculations();
 			System.out.println("Total Score: "+ total);
+			System.out.println("Percentage: "+ per);
 
 		}
 	}

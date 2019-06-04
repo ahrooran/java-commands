@@ -6,12 +6,13 @@ class timestables2{
 	System.out.println("Enter three numbers: ");
 
 	int firstNum = reader.nextInt();
-	int secondNum = reader.nextInt();
 	int numOf = reader.nextInt();
+	int secondNum = reader.nextInt();
+
 	int result;
 	int i =1;
 
-	while(i < numOf){
+	while(i <= numOf){
 		result=firstNum*secondNum;
 		System.out.println(firstNum + " x " + secondNum + " = " + result);
 		firstNum++;

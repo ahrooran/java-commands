@@ -20,11 +20,9 @@ class Result{
 
 class timestables{
 	public static void main(String args[]){
-		Result peter;
-		peter = new Result();
+		Result input;
+		input = new Result();
 
-		peter.t_t(34);
-
-		//peter.showResult();
+		input.t_t(45);
 	}
 }

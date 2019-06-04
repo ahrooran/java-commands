@@ -54,7 +54,6 @@ class Result{
 	}
 }
 
-
 class school2{
 	public static void main(String args[]){
 		Result peter,james;
